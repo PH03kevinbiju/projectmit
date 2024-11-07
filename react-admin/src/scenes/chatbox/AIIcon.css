@@ -1,0 +1,12 @@
+/* App.css */
+.app-container {
+  position: relative;
+}
+
+.dashboard {
+  padding: 20px;
+  background-color: #f4f4f9;
+  min-height: 500px; /* Ensure it has a minimum height */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

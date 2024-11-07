@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Add this to your main CSS file */
+.chatbot-container {
+  position: fixed;
+  bottom: 80px; /* Adjust based on the size of the AI icon */
+  right: 20px; /* Match the icon position */
+  width: 300px; /* Adjust width as needed */
+  background-color: white; /* Background color for the chatbot */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px; /* Rounded corners */
+  z-index: 1000; /* Ensure it's on top */
+}
